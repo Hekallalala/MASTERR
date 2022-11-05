@@ -1317,7 +1317,7 @@ var mems = []
 members.map(async adm => {
 mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
-haikal.sendMessage(from, {text: `\`\`\`「 ⚠️ Peringatan ⚠️ 」\`\`\`\n\nFitur Ini Mengandung Fitur +18, Harap Jangan Coli / Colmek Melihat Nya Dan Fitur Ini Mengandung Bug`, contextInfo: { mentionedJid : mems }}, {quoted:dapin})
+haikal.sendMessage(from, {text: `\`\`\`「 ⚠️ Peringatan ⚠️ 」\`\`\`\n\nFitur Ini Mengandung Fitur +18, Harap Jangan Coli / Colmek Melihat Nya Dan Fitur Ini Mengandung Bug`, contextInfo: { mentionedJid : mems }}, {quoted: m})
 } else if (args[0] === "off") {
 if (!AntiNsfww) return m.reply('Sudah Non Aktif')
 let off = ntnsfww.indexOf(from)
@@ -2419,7 +2419,7 @@ var mems = []
 members.map(async adm => {
 mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
-haikal.sendMessage(from, {text: `\`\`\`「 ⚠️ Peringatan ⚠️ 」\`\`\`\n\nFitur Ini Mengandung Fitur +18, Harap Jangan Coli / Colmek Melihat Nya`, contextInfo: { mentionedJid : mems }}, {quoted:dapin})
+haikal.sendMessage(from, {text: `\`\`\`「 ⚠️ Peringatan ⚠️ 」\`\`\`\n\nFitur Ini Mengandung Fitur +18, Harap Jangan Coli / Colmek Melihat Nya`, contextInfo: { mentionedJid : mems }}, {quoted: m})
 } else if (args[0] === "off") {
 if (!AntiNsfw) return m.reply('Sudah Non Aktif')
 let off = ntnsfw.indexOf(from)
@@ -2452,7 +2452,7 @@ m.reply(mess.wait)
 image: {url:waifudd.data.url},
 caption:`Here you go!`,
 }
-haikal.sendMessage(m.chat, trapbot, { quoted:dapin }).catch(err => {
+haikal.sendMessage(m.chat, trapbot, { quoted: m }).catch(err => {
  return('Error!')
 })
 break
@@ -2467,7 +2467,7 @@ if (!AntiNsfw) return m.reply(mess.nsfw)
 image: {url:waifudd.data.url},
 caption:`Here you go!`,
 }
-haikal.sendMessage(m.chat, hnekobot, { quoted:dapin }).catch(err => {
+haikal.sendMessage(m.chat, hnekobot, { quoted: m }).catch(err => {
  return('Error!')
 })
 break
@@ -2483,7 +2483,7 @@ m.reply(mess.wait)
 image: {url:waifudd.data.url},
 caption:`Here you go!`,
 }
-haikal.sendMessage(m.chat, nwaifubot, { quoted:dapin }).catch(err => {
+haikal.sendMessage(m.chat, nwaifubot, { quoted: m }).catch(err => {
  return('Error!')
 })
 break
@@ -2497,7 +2497,7 @@ m.reply(mess.wait)
 image: {url:waifudd.data.url},
 caption:`Here you go!`,
 }
-haikal.sendMessage(m.chat, wbuttsss,{ quoted:dapin }).catch(err => {
+haikal.sendMessage(m.chat, wbuttsss,{ quoted: m }).catch(err => {
  return('Error!')
 })
 break
@@ -4018,7 +4018,7 @@ var mems = []
 members.map(async adm => {
 mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
-haikal.sendMessage(from, {text: `\`\`\`「 ⚠️ Peringatan ⚠️ 」\`\`\`\n\nFitur Ini Mengandung Fitur Bug Admin Dan Penyapa, Harap Berhati-hati`, contextInfo: { mentionedJid : mems }}, {quoted:dapin})
+haikal.sendMessage(from, {text: `\`\`\`「 ⚠️ Peringatan ⚠️ 」\`\`\`\n\nFitur Ini Mengandung Fitur Bug Admin Dan Penyapa, Harap Berhati-hati`, contextInfo: { mentionedJid : mems }}, {quoted: m})
 } else if (args[0] === "off") {
 if (!welcm) return m.reply('Sudah Non Aktif')
 let off = wlcm.indexOf(from)
